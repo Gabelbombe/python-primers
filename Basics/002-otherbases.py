@@ -10,14 +10,17 @@ print 'hex(x) '   , hex(x)                  # '0x4d2'
 # NOTE: both 0oXXX and 0XXX WILL EVALUATE CORRECTLY
 
 # Example:
-# ⌘ python -c "print \"%d\" % 0o2322" '1234'
-# ⌘ python -c "print \"%d\" % 02322"  '1234'
+# $ python -c "print \"%d\" % 0o2322" '1234'
+# $ python -c "print \"%d\" % 02322"  '1234'
 
 # Using the format() function to suppress prefixes
 print 'format(x, \'b\')' , format(x, 'b')   # bin (base2)  conversion
 print 'format(x, \'o\')' , format(x, 'o')   # oct (base4)  conversion
 print 'format(x, \'x\')' , format(x, 'x')   # hex (base16) conversion
 
+
+
+# Using negative ranges produces negative sets
 x = None                                    # clear
 print 'x = -1234 ' ; x = -1234              # negative range
 print 'format(x, \'b\')' , format(x, 'b')   # bin (base2)  conversion
