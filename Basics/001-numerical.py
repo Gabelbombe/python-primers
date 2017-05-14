@@ -1,6 +1,5 @@
 # Numerical operations
 
-
 # Arithmetic operations involving assignment
 print 'x = 4 '  ; x = 4
 print 'y = 7 '  ; y = 7
