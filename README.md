@@ -11,4 +11,4 @@
  - Basics
     * [001-numerical.py](https://github.com/ehime/python-primers/blob/master/Basics/001-numerical.py)
     * [002-otherbases.py](https://github.com/ehime/python-primers/blob/master/Basics/002-otherbases.py)
-    * [003-chrfunction.pyn]()
+    * [003-chrfunction.py](https://github.com/ehime/python-primers/blob/master/Basics/003-chrfunction.py)
