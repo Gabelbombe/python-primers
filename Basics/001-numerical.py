@@ -21,8 +21,8 @@ print 'word1 = "123"'        ; word1 = "123"
 print 'word2 = "456.78"'     ; word2 = "456.78"
 print 'var01 = int(word1)'   ; var01 = int(word1)
 print 'var02 = float(word2)' ; var02 = float(word2)
-print "var01 is " , var01 ,  \
-      "var02 is " , var02
+print 'var01 is ' , var01 ,  \
+      'var02 is ' , var02
 
 var01 ,      \
 var02 = None \
