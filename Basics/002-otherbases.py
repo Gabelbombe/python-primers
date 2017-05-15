@@ -19,7 +19,6 @@ print 'format(x, \'o\')' , format(x, 'o')   # oct (base4)  conversion
 print 'format(x, \'x\')' , format(x, 'x')   # hex (base16) conversion
 
 
-
 # Using negative ranges produces negative sets
 x = None                                    # clear
 print 'x = -1234 ' ; x = -1234              # negative range
